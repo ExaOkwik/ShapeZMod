@@ -251,7 +251,7 @@ class HUDTeleporterEdit extends shapez.BaseHUDPart {
                     this.editTeleporterText(contents, "in", {
                         deleteOnCancel: false,
                     });
-                    return shapez.STOP_PROPAGATION;
+                    return true;
                 }
             } else if (outComp) {
                 if (button === shapez.enumMouseButton.left) {
